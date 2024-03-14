@@ -52,38 +52,33 @@ int main() {
         return -1;
     }
     cv::Mat frame, grayFrame, smFrame;
-    //convert frame to 16x12 text array(original is 480x360)
     while(1){
-//        std::cout << clr;
         if(!cap.read(frame)){
             std::cout << "Can't read the file\n";
             break;
         }
         cv::cvtColor(frame, grayFrame, cv::COLOR_BGR2GRAY);
         cv::imshow("frame", grayFrame);
-        cv::resize(grayFrame, smFrame, cv::Size(64, 48), 1, 1);
-//        cv::resize(grayFrame, smFrame, cv::Size(32, 24), 1, 1);
-//        cv::imshow("frame_resized", smFrame);
-
+//        cv::resize(grayFrame, smFrame, cv::Size(64, 48), 1, 1);
+        cv::resize(grayFrame, smFrame, cv::Size(48, 36), 1, 1);
         std::cout << matToASCII(smFrame);
-//        std::cout <<  "width: " << frame.cols << std::endl;
         if(cv::waitKey(30) == 27)
         {
             break;
         }
-
+//        std::this_thread::sleep_for(std::chrono::milliseconds (50));
     }
     return 0;
 }
 std::string matToASCII(cv::Mat src){
-    std::string ramp = " .:-=+#@";
+    std::string ramp = " .:=+@";
     std::string outStr;
     int _stride = src.step;
     uint8_t *myData = src.data;
     std::string tmp;
     for (int i = 0; i < src.rows; i++){
         for (int j = 0; j < src.cols; j++){
-            tmp = ramp[(int)((myData[ i * _stride + j]) / 32)];
+            tmp = ramp[(int)((myData[ i * _stride + j]) / 51)];
             outStr.append(tmp + tmp);
         }
         outStr.append("\n");
