@@ -1,0 +1,3 @@
+/mnt/c/Users/coenz/CLionProjects/BadAppleASCII/build/CMakeFiles/BadAppleASCII.dir
+/mnt/c/Users/coenz/CLionProjects/BadAppleASCII/build/CMakeFiles/edit_cache.dir
+/mnt/c/Users/coenz/CLionProjects/BadAppleASCII/build/CMakeFiles/rebuild_cache.dir
