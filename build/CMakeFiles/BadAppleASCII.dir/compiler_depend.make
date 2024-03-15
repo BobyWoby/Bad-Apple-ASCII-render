@@ -450,8 +450,125 @@ CMakeFiles/BadAppleASCII.dir/main.cpp.o: ../main.cpp \
   /usr/include/SDL2/SDL_misc.h \
   /usr/include/c++/11/thread \
   /usr/include/c++/11/bits/std_thread.h \
-  /usr/include/c++/11/bits/this_thread_sleep.h
+  /usr/include/c++/11/bits/this_thread_sleep.h \
+  /usr/include/SFML/Audio.hpp \
+  /usr/include/SFML/System.hpp \
+  /usr/include/SFML/Config.hpp \
+  /usr/include/SFML/System/Clock.hpp \
+  /usr/include/SFML/System/Export.hpp \
+  /usr/include/SFML/System/Time.hpp \
+  /usr/include/SFML/System/Err.hpp \
+  /usr/include/SFML/System/FileInputStream.hpp \
+  /usr/include/SFML/System/InputStream.hpp \
+  /usr/include/SFML/System/NonCopyable.hpp \
+  /usr/include/SFML/System/Lock.hpp \
+  /usr/include/SFML/System/MemoryInputStream.hpp \
+  /usr/include/SFML/System/Mutex.hpp \
+  /usr/include/SFML/System/Sleep.hpp \
+  /usr/include/SFML/System/String.hpp \
+  /usr/include/SFML/System/Utf.hpp \
+  /usr/include/c++/11/locale \
+  /usr/include/c++/11/bits/locale_facets_nonio.h \
+  /usr/include/x86_64-linux-gnu/c++/11/bits/time_members.h \
+  /usr/include/x86_64-linux-gnu/c++/11/bits/messages_members.h \
+  /usr/include/libintl.h \
+  /usr/include/c++/11/bits/codecvt.h \
+  /usr/include/c++/11/bits/locale_facets_nonio.tcc \
+  /usr/include/c++/11/bits/locale_conv.h \
+  /usr/include/SFML/System/Utf.inl \
+  /usr/include/c++/11/iterator \
+  /usr/include/c++/11/bits/stream_iterator.h \
+  /usr/include/SFML/System/String.inl \
+  /usr/include/SFML/System/Thread.hpp \
+  /usr/include/SFML/System/Thread.inl \
+  /usr/include/SFML/System/ThreadLocal.hpp \
+  /usr/include/SFML/System/ThreadLocalPtr.hpp \
+  /usr/include/SFML/System/ThreadLocalPtr.inl \
+  /usr/include/SFML/System/Vector2.hpp \
+  /usr/include/SFML/System/Vector2.inl \
+  /usr/include/SFML/System/Vector3.hpp \
+  /usr/include/SFML/System/Vector3.inl \
+  /usr/include/SFML/Audio/InputSoundFile.hpp \
+  /usr/include/SFML/Audio/Export.hpp \
+  /usr/include/SFML/Audio/Listener.hpp \
+  /usr/include/SFML/Audio/Music.hpp \
+  /usr/include/SFML/Audio/SoundStream.hpp \
+  /usr/include/SFML/Audio/SoundSource.hpp \
+  /usr/include/SFML/Audio/AlResource.hpp \
+  /usr/include/SFML/Audio/OutputSoundFile.hpp \
+  /usr/include/SFML/Audio/Sound.hpp \
+  /usr/include/SFML/Audio/SoundBuffer.hpp \
+  /usr/include/c++/11/set \
+  /usr/include/c++/11/bits/stl_tree.h \
+  /usr/include/c++/11/bits/stl_set.h \
+  /usr/include/c++/11/bits/stl_multiset.h \
+  /usr/include/SFML/Audio/SoundBufferRecorder.hpp \
+  /usr/include/SFML/Audio/SoundRecorder.hpp \
+  /usr/include/SFML/Audio/SoundFileFactory.hpp \
+  /usr/include/SFML/Audio/SoundFileFactory.inl \
+  /usr/include/SFML/Audio/SoundFileReader.hpp \
+  /usr/include/SFML/Audio/SoundFileWriter.hpp
 
+
+/usr/include/SFML/Audio/SoundRecorder.hpp:
+
+/usr/include/SFML/Audio/SoundBufferRecorder.hpp:
+
+/usr/include/c++/11/bits/stl_tree.h:
+
+/usr/include/c++/11/set:
+
+/usr/include/SFML/Audio/SoundBuffer.hpp:
+
+/usr/include/SFML/Audio/OutputSoundFile.hpp:
+
+/usr/include/SFML/Audio/AlResource.hpp:
+
+/usr/include/SFML/Audio/SoundStream.hpp:
+
+/usr/include/SFML/Audio/Music.hpp:
+
+/usr/include/SFML/Audio/Listener.hpp:
+
+/usr/include/SFML/System/Vector3.inl:
+
+/usr/include/c++/11/bits/stream_iterator.h:
+
+/usr/include/SFML/System/Utf.inl:
+
+/usr/include/c++/11/bits/locale_conv.h:
+
+/usr/include/c++/11/bits/locale_facets_nonio.tcc:
+
+/usr/include/x86_64-linux-gnu/c++/11/bits/time_members.h:
+
+/usr/include/c++/11/bits/locale_facets_nonio.h:
+
+/usr/include/SFML/System/Utf.hpp:
+
+/usr/include/libintl.h:
+
+/usr/include/SFML/System/String.hpp:
+
+/usr/include/SFML/System/Sleep.hpp:
+
+/usr/include/SFML/System/Mutex.hpp:
+
+/usr/include/SFML/System/InputStream.hpp:
+
+/usr/include/SFML/System/FileInputStream.hpp:
+
+/usr/include/SFML/System/Err.hpp:
+
+/usr/include/SFML/System/Export.hpp:
+
+/usr/include/SFML/Config.hpp:
+
+/usr/include/SFML/System.hpp:
+
+/usr/include/SFML/System/ThreadLocalPtr.inl:
+
+/usr/include/SFML/Audio.hpp:
 
 /usr/include/SDL2/SDL_locale.h:
 
@@ -459,9 +576,13 @@ CMakeFiles/BadAppleASCII.dir/main.cpp.o: ../main.cpp \
 
 /usr/include/SDL2/SDL_metal.h:
 
+/usr/include/c++/11/bits/stl_multiset.h:
+
 /usr/include/SDL2/SDL_messagebox.h:
 
 /usr/include/SDL2/SDL_haptic.h:
+
+/usr/include/SFML/Audio/Sound.hpp:
 
 /usr/include/SDL2/SDL_touch.h:
 
@@ -515,11 +636,15 @@ CMakeFiles/BadAppleASCII.dir/main.cpp.o: ../main.cpp \
 
 /usr/lib/gcc/x86_64-linux-gnu/11/include/avx512vpopcntdqintrin.h:
 
+/usr/include/SFML/System/NonCopyable.hpp:
+
 /usr/lib/gcc/x86_64-linux-gnu/11/include/avx5124vnniwintrin.h:
 
 /usr/lib/gcc/x86_64-linux-gnu/11/include/avx5124fmapsintrin.h:
 
 /usr/lib/gcc/x86_64-linux-gnu/11/include/avx512vbmivlintrin.h:
+
+/usr/include/SFML/System/ThreadLocal.hpp:
 
 /usr/lib/gcc/x86_64-linux-gnu/11/include/avx512ifmaintrin.h:
 
@@ -539,6 +664,8 @@ CMakeFiles/BadAppleASCII.dir/main.cpp.o: ../main.cpp \
 
 /usr/lib/gcc/x86_64-linux-gnu/11/include/xsaveintrin.h:
 
+/usr/include/SFML/System/Lock.hpp:
+
 /usr/include/SDL2/SDL_log.h:
 
 /usr/lib/gcc/x86_64-linux-gnu/11/include/avx512pfintrin.h:
@@ -546,6 +673,8 @@ CMakeFiles/BadAppleASCII.dir/main.cpp.o: ../main.cpp \
 /usr/lib/gcc/x86_64-linux-gnu/11/include/wbnoinvdintrin.h:
 
 /usr/lib/gcc/x86_64-linux-gnu/11/include/waitpkgintrin.h:
+
+/usr/include/SFML/System/MemoryInputStream.hpp:
 
 /usr/lib/gcc/x86_64-linux-gnu/11/include/tsxldtrkintrin.h:
 
@@ -560,6 +689,8 @@ CMakeFiles/BadAppleASCII.dir/main.cpp.o: ../main.cpp \
 /usr/lib/gcc/x86_64-linux-gnu/11/include/rdseedintrin.h:
 
 /usr/lib/gcc/x86_64-linux-gnu/11/include/pkuintrin.h:
+
+/usr/include/c++/11/bits/stl_set.h:
 
 /usr/lib/gcc/x86_64-linux-gnu/11/include/popcntintrin.h:
 
@@ -583,6 +714,8 @@ CMakeFiles/BadAppleASCII.dir/main.cpp.o: ../main.cpp \
 
 /usr/lib/gcc/x86_64-linux-gnu/11/include/ia32intrin.h:
 
+/usr/include/x86_64-linux-gnu/c++/11/bits/messages_members.h:
+
 /usr/lib/gcc/x86_64-linux-gnu/11/include/immintrin.h:
 
 /usr/include/SDL2/SDL_cpuinfo.h:
@@ -602,6 +735,8 @@ CMakeFiles/BadAppleASCII.dir/main.cpp.o: ../main.cpp \
 /usr/include/SDL2/SDL_assert.h:
 
 /usr/include/c++/11/math.h:
+
+/usr/include/SFML/System/ThreadLocalPtr.hpp:
 
 /usr/include/inttypes.h:
 
@@ -643,6 +778,8 @@ CMakeFiles/BadAppleASCII.dir/main.cpp.o: ../main.cpp \
 
 /usr/include/c++/11/ratio:
 
+/usr/include/SFML/System/Vector2.hpp:
+
 /usr/include/c++/11/mutex:
 
 /usr/include/c++/11/sstream:
@@ -652,6 +789,8 @@ CMakeFiles/BadAppleASCII.dir/main.cpp.o: ../main.cpp \
 /usr/include/opencv4/opencv2/core/mat.inl.hpp:
 
 /usr/include/opencv4/opencv2/core/bufferpool.hpp:
+
+/usr/include/SFML/System/Thread.hpp:
 
 /usr/lib/gcc/x86_64-linux-gnu/11/include/float.h:
 
@@ -743,6 +882,10 @@ CMakeFiles/BadAppleASCII.dir/main.cpp.o: ../main.cpp \
 
 /usr/include/c++/11/algorithm:
 
+/usr/include/SFML/System/Vector2.inl:
+
+/usr/include/SFML/System/Thread.inl:
+
 /usr/include/x86_64-linux-gnu/c++/11/bits/c++allocator.h:
 
 /usr/include/c++/11/bits/locale_classes.h:
@@ -793,6 +936,8 @@ CMakeFiles/BadAppleASCII.dir/main.cpp.o: ../main.cpp \
 
 /usr/include/x86_64-linux-gnu/bits/pthreadtypes-arch.h:
 
+/usr/include/SFML/Audio/Export.hpp:
+
 /usr/include/c++/11/bits/localefwd.h:
 
 /usr/include/c++/11/tr1/hypergeometric.tcc:
@@ -803,11 +948,17 @@ CMakeFiles/BadAppleASCII.dir/main.cpp.o: ../main.cpp \
 
 /usr/include/opencv4/opencv2/core/cv_cpu_dispatch.h:
 
+/usr/include/SFML/Audio/SoundFileFactory.hpp:
+
 /usr/lib/gcc/x86_64-linux-gnu/11/include/avxvnniintrin.h:
 
 /usr/include/c++/11/cctype:
 
+/usr/include/SFML/System/Time.hpp:
+
 /usr/include/c++/11/unordered_map:
+
+/usr/include/SFML/Audio/SoundSource.hpp:
 
 /usr/include/c++/11/cfloat:
 
@@ -869,6 +1020,8 @@ CMakeFiles/BadAppleASCII.dir/main.cpp.o: ../main.cpp \
 
 /usr/include/c++/11/exception:
 
+/usr/include/SFML/System/Vector3.hpp:
+
 /usr/include/SDL2/SDL_keycode.h:
 
 /usr/include/c++/11/bits/invoke.h:
@@ -896,6 +1049,8 @@ CMakeFiles/BadAppleASCII.dir/main.cpp.o: ../main.cpp \
 /usr/include/c++/11/bits/move.h:
 
 /usr/include/c++/11/bits/hash_bytes.h:
+
+/usr/include/SFML/System/Clock.hpp:
 
 /usr/include/c++/11/bits/string_view.tcc:
 
@@ -1017,6 +1172,8 @@ CMakeFiles/BadAppleASCII.dir/main.cpp.o: ../main.cpp \
 
 /usr/include/c++/11/bits/stl_iterator_base_types.h:
 
+/usr/include/c++/11/iterator:
+
 /usr/include/x86_64-linux-gnu/bits/floatn.h:
 
 /usr/include/c++/11/bits/range_access.h:
@@ -1045,6 +1202,8 @@ CMakeFiles/BadAppleASCII.dir/main.cpp.o: ../main.cpp \
 
 /usr/include/c++/11/bits/exception_defines.h:
 
+/usr/include/SFML/Audio/SoundFileWriter.hpp:
+
 /usr/include/x86_64-linux-gnu/bits/cpu-set.h:
 
 /usr/include/x86_64-linux-gnu/bits/types/__mbstate_t.h:
@@ -1063,6 +1222,8 @@ CMakeFiles/BadAppleASCII.dir/main.cpp.o: ../main.cpp \
 
 /usr/include/c++/11/streambuf:
 
+/usr/include/SFML/Audio/SoundFileFactory.inl:
+
 /usr/lib/gcc/x86_64-linux-gnu/11/include/smmintrin.h:
 
 /usr/include/c++/11/iosfwd:
@@ -1072,6 +1233,8 @@ CMakeFiles/BadAppleASCII.dir/main.cpp.o: ../main.cpp \
 /usr/include/x86_64-linux-gnu/c++/11/bits/c++locale.h:
 
 /usr/include/x86_64-linux-gnu/bits/xopen_lim.h:
+
+/usr/include/c++/11/locale:
 
 /usr/include/SDL2/SDL_gesture.h:
 
@@ -1136,6 +1299,8 @@ CMakeFiles/BadAppleASCII.dir/main.cpp.o: ../main.cpp \
 /usr/include/opencv4/opencv2/core/utility.hpp:
 
 /usr/include/x86_64-linux-gnu/bits/mathcalls-helper-functions.h:
+
+/usr/include/SFML/Audio/InputSoundFile.hpp:
 
 /usr/include/c++/11/bits/charconv.h:
 
@@ -1287,6 +1452,10 @@ CMakeFiles/BadAppleASCII.dir/main.cpp.o: ../main.cpp \
 
 /usr/include/c++/11/bits/hashtable_policy.h:
 
+/usr/include/SFML/System/String.inl:
+
+/usr/include/c++/11/bits/codecvt.h:
+
 /usr/include/SDL2/SDL_events.h:
 
 /usr/include/opencv4/opencv2/core/persistence.hpp:
@@ -1338,6 +1507,8 @@ CMakeFiles/BadAppleASCII.dir/main.cpp.o: ../main.cpp \
 /usr/include/x86_64-linux-gnu/bits/libm-simd-decl-stubs.h:
 
 /usr/include/x86_64-linux-gnu/bits/flt-eval-method.h:
+
+/usr/include/SFML/Audio/SoundFileReader.hpp:
 
 /usr/include/x86_64-linux-gnu/bits/mathcalls.h:
 

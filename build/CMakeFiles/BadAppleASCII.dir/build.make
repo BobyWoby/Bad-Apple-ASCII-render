@@ -127,6 +127,11 @@ BadAppleASCII: /usr/lib/x86_64-linux-gnu/libopencv_viz.so.4.5.4d
 BadAppleASCII: /usr/lib/x86_64-linux-gnu/libopencv_wechat_qrcode.so.4.5.4d
 BadAppleASCII: /usr/lib/x86_64-linux-gnu/libopencv_xobjdetect.so.4.5.4d
 BadAppleASCII: /usr/lib/x86_64-linux-gnu/libopencv_xphoto.so.4.5.4d
+BadAppleASCII: /usr/lib/x86_64-linux-gnu/libsfml-network.so.2.5.1
+BadAppleASCII: /usr/lib/x86_64-linux-gnu/libsfml-audio.so.2.5.1
+BadAppleASCII: /usr/lib/x86_64-linux-gnu/libsfml-graphics.so.2.5.1
+BadAppleASCII: /usr/lib/x86_64-linux-gnu/libsfml-window.so.2.5.1
+BadAppleASCII: /usr/lib/x86_64-linux-gnu/libsfml-system.so.2.5.1
 BadAppleASCII: /usr/lib/x86_64-linux-gnu/libopencv_highgui.so.4.5.4d
 BadAppleASCII: /usr/lib/x86_64-linux-gnu/libopencv_datasets.so.4.5.4d
 BadAppleASCII: /usr/lib/x86_64-linux-gnu/libopencv_plot.so.4.5.4d

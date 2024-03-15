@@ -12,6 +12,7 @@ C:\WINDOWS\system32\wsl.exe --distribution Ubuntu --exec /bin/bash -c "export CM
 -- Detecting CXX compile features
 -- Detecting CXX compile features - done
 -- Found OpenCV: /usr (found version "4.5.4") 
+-- Found SFML 2.5.1 in /usr/lib/x86_64-linux-gnu/cmake/SFML
 -- Configuring done
 -- Generating done
 -- Build files have been written to: /mnt/c/Users/coenz/CLionProjects/BadAppleASCII/build

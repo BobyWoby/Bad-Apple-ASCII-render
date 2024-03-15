@@ -6,52 +6,29 @@
 #include <SDL2/SDL.h>
 #include <thread>
 #include <chrono>
+#include <SFML/Audio.hpp>
+#include <SFML/Audio/Sound.hpp>
+#include <SFML/Audio/SoundBuffer.hpp>
+
 
 std::string matToASCII(cv::Mat src);
 
 
 int main() {
-//
-//    if(SDL_Init(SDL_INIT_VIDEO) < 0)
-//    {
-//        std::cout << "Failed to initialize the SDL2 library\n";
-//        return -1;
-//    }
-//
-//    SDL_Window *window = SDL_CreateWindow("Bad Apple", SDL_WINDOWPOS_CENTERED, SDL_WINDOWPOS_CENTERED, 320, 320, 0);
-//    if(!window)
-//    {
-//        std::cout << "Failed to create window\n";
-//        return -1;
-//    }
-//    SDL_Surface *window_surface = SDL_GetWindowSurface(window);
-//
-//    if(!window_surface)
-//    {
-//        std::cout << "Failed to get the surface from the window\n";
-//        return -1;
-//    }
-//
-//    SDL_Event e;
-//    bool keep_window_open = true;
-//    while(keep_window_open){
-//        while(SDL_PollEvent(&e) > 0){
-//            switch(e.type){
-//            case SDL_QUIT:
-//                keep_window_open = false;
-//                break;
-//            }
-//        }
-//        SDL_UpdateWindowSurface(window);
-//    }
-
-
+    sf::SoundBuffer buffer;
+    if(!buffer.loadFromFile("BadApple.wav")){
+        std::cout << "Can't load the audio file\n";
+        return -1;
+    }
+    sf::Sound sound;
+    sound.setBuffer(buffer);
     cv::VideoCapture cap("BadApple.mp4");
     if(!cap.isOpened()){
         std::cout << "Can't open the video file. \n";
         return -1;
     }
     cv::Mat frame, grayFrame, smFrame;
+    sound.play();
     while(1){
         if(!cap.read(frame)){
             std::cout << "Can't read the file\n";
@@ -66,7 +43,7 @@ int main() {
         {
             break;
         }
-//        std::this_thread::sleep_for(std::chrono::milliseconds (50));
+        std::this_thread::sleep_for(std::chrono::milliseconds (1));
     }
     return 0;
 }
