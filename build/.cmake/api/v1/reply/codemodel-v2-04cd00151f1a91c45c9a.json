@@ -7,7 +7,7 @@
 				{
 					"build" : ".",
 					"hasInstallRule" : true,
-					"jsonFile" : "directory-.-Debug-9ab044c34278eaf883d3.json",
+					"jsonFile" : "directory-.-Debug-0dbfd2bc3de2519487f1.json",
 					"minimumCMakeVersion" : 
 					{
 						"string" : "3.22"
@@ -40,7 +40,7 @@
 				{
 					"directoryIndex" : 0,
 					"id" : "BadAppleASCII::@6890427a1f51a3e7e1df",
-					"jsonFile" : "target-BadAppleASCII-Debug-5957d2a0935f8457198c.json",
+					"jsonFile" : "target-BadAppleASCII-Debug-3190099a5090328b047e.json",
 					"name" : "BadAppleASCII",
 					"projectIndex" : 0
 				}
