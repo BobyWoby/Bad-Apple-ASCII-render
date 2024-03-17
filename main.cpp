@@ -40,7 +40,7 @@ int main(int argc, char* argv[]) {
     sf::Sound sound;
     sound.setBuffer(buffer);
     sound.setVolume(std::stoi(argv[1]));
-    sound.setPitch(std::stoi(argv[2]));
+    sound.setPitch(std::stod(argv[2]));
     cv::VideoCapture cap("BadApple.mp4");
     if(!cap.isOpened()){
         std::cout << "Can't open the video file. \n";
